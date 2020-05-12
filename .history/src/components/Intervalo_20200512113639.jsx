@@ -21,9 +21,9 @@ function Intervalo(props) {
                 </span>
                 <span>
                     <strong>Máximo</strong>
-                    <input type="number" value={max}
-                        onChange={e => props.alterarMaximo(+e.target.value)}
-                    />
+                    <input type="number" value={max} 
+                    onChange={e => props.alterNumeroMaximo(+e.target.value)}
+                     />
                 </span>
             </div>
         </Card>

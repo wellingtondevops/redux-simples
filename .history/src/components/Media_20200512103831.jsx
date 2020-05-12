@@ -22,7 +22,7 @@ function Media(props) {
 function mapStateToProps(state) {
     return {
         min: state.numeros.min,
-        max: state.numeros.max
+        max: state.numeros.max,
     }
 }
 
